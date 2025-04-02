@@ -1,0 +1,1 @@
+function u(t,e,c){const r=t*(1-e/100),n=Math.round(r*100)/100,s=n/c,o=Math.round(s*100)/100;return{total:n,perUnit:o===t?0:o}}function a(t){return t.toLowerCase().replace(/\s*&\s*/g," ").split(" ").join("-")}export{u as a,a as c};
